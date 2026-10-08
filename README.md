@@ -45,13 +45,15 @@ you and what surprised you. Not what the library does, but what you understood.
 
 ### Chapter 7: Feature selection
 
-Feature selection is about keeping only the most useful variables in a dataset and dropping the irrelevant, noisy, or highly correlated ones, which improves accuracy, speeds up training, and makes models easier to interpret. I learned there are three main approaches: filter methods rank features with statistics like Pearson correlation (fast, but they judge each feature alone and miss interactions), wrapper methods like RFECV train a model repeatedly on different subsets to find the best combination (accurate, but computationally expensive). Embedded methods like LassoCV do the selection during training itself, using L1 regularization to shrink unimportant features' coefficients to zero, and the best choice depends on dataset size, available computing power, and the model's requirements.
+We learned that the three methods trade accuracy for cost: filter methods (like Pearson correlation) are fast but judge each feature alone, wrapper methods (like RFECV) test subsets with the actual model but are expensive, and embedded methods (like LassoCV) select features during training. What surprised us was that L1 regularization can shrink a coefficient to exactly zero, so the model removes features as it learns.
 
 ### Chapter 8: Constructing a preprocessing pipeline
-[]
+
+We learned that a pipeline works like a conveyor belt: raw data goes in, and each step (mean imputation, then StandardScaler) transforms it automatically. ColumnTransformer lets us apply these steps only to Age and Fare while leaving other columns untouched. What surprised us was that the pipeline's biggest benefit is preventing data leakage and keeping results reproducible, not just saving effort.
 
 ### Chapter 9: Full pipeline and visualization
-[]
+
+We learned that preprocessing works best as one reusable pipeline: impute missing values (median for numbers, placeholder for categories), scale with StandardScaler, encode with OneHotEncoder, and bin age into life stages. What surprised us was how much happens before any model exists, and that the pipeline guarantees the same transformations on training and test data.
 
 ## Errors we found
 
