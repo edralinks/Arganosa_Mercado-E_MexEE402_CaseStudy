@@ -49,7 +49,7 @@ We learned that the three methods trade accuracy for cost: filter methods (like 
 
 ### Chapter 8: Constructing a preprocessing pipeline
 
-We learned that a pipeline works like a conveyor belt: raw data goes in, and each step (mean imputation, then StandardScaler) transforms it automatically. ColumnTransformer lets us apply these steps only to Age and Fare while leaving other columns untouched. What surprised us was that the pipeline's biggest benefit is preventing data leakage and keeping results reproducible, not just saving effort.
+We learned that a pipeline works like a conveyor, the raw data goes in, and each step (mean imputation, then StandardScaler) transforms it automatically. ColumnTransformer lets us apply these steps only to Age and Fare while leaving other columns untouched. What surprised us was that the pipeline's biggest benefit is preventing data leakage and keeping results reproducible, not just saving effort.
 
 ### Chapter 9: Full pipeline and visualization
 
