@@ -11,7 +11,7 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Arganosa, Kier | | MEXE - 4102 |
+| Arganosa, Kier | 23-00125| MEXE - 4102 |
 | Mercado, Edralyn | 23-03282| MEXE - 4102|
 
 ## Notebook links
