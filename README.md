@@ -31,6 +31,8 @@ Batangas State University, Alangilan Campus
 One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
 
+# Chapter 1, 2, 3: Exploring and cleaning data
+
 Chapter1_2_3
   fnxovxpjc
 
