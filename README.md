@@ -32,16 +32,21 @@ One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
 
 ### Chapter 1, 2, 3: Exploring and cleaning data
-[]
+
+In these chapters 1,2,3 thought as that before using data for analysis, we need to check and clean it first. Also we understood how to identify missing values, check the information in a dataset, and remove unnecessary columns. What surprised me is that even small problems in the data can affect the results, so it is important to make sure the data is clean and organized.
 
 ### Chapter 4: Feature engineering and encoding
-[]
+
+In this chapter, we learned how to make data more useful by creating new features or changing existing ones to find patterns. We also learned that binning groups numerical values into categories, while one-hot and ordinal encoding convert categorical data into numbers. What surprised us is that we can get more information from the same data by creating new features, such as Lemonade per Degree, and that we need to choose the right encoding depending on whether the categories have a natural order or not.
 
 ### Chapter 5: Scaling and normalization
-[]
+
+We learn that scaling and normalization help make numerical data comparable by adjusting their values to a similar range. We understood that features with larger numbers, like grades, may have more influence on some machine learning models than features with smaller numbers, like study hours. What surprised us is that even if the original values are different, we can adjust them to a similar scale to help the model process the data more fairly.
+
 
 ### Chapter 6: Outlier detection
-[]
+
+This chapter helped us understand what outliers are and why they can affect the results of our data analysis. We learned different ways to identify them, such as using the Z-score and IQR methods, and different ways to handle them depending on the situation. What surprised us was that the same value can be considered an outlier by one method but not by another, like the value 100 in our example.
 
 ### Chapter 7: Feature selection
 
