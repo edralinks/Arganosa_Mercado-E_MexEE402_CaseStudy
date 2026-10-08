@@ -32,21 +32,25 @@ One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
 
 ### Chapter 1, 2, 3: Exploring and cleaning data
+[]
 
 ### Chapter 4: Feature engineering and encoding
+[]
 
 ### Chapter 5: Scaling and normalization
+[]
 
 ### Chapter 6: Outlier detection
+[]
 
 ### Chapter 7: Feature selection
+[]
 
 ### Chapter 8: Constructing a preprocessing pipeline
+[]
 
 ### Chapter 9: Full pipeline and visualization
-
-Chapter1_2_3
-  fnxovxpjc
+[]
 
 ## Errors we found
 
