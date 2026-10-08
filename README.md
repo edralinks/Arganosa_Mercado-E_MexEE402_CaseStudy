@@ -44,7 +44,8 @@ you and what surprised you. Not what the library does, but what you understood.
 []
 
 ### Chapter 7: Feature selection
-[]
+
+Feature selection is about keeping only the most useful variables in a dataset and dropping the irrelevant, noisy, or highly correlated ones, which improves accuracy, speeds up training, and makes models easier to interpret. I learned there are three main approaches: filter methods rank features with statistics like Pearson correlation (fast, but they judge each feature alone and miss interactions), wrapper methods like RFECV train a model repeatedly on different subsets to find the best combination (accurate, but computationally expensive). Embedded methods like LassoCV do the selection during training itself, using L1 regularization to shrink unimportant features' coefficients to zero, and the best choice depends on dataset size, available computing power, and the model's requirements.
 
 ### Chapter 8: Constructing a preprocessing pipeline
 []
