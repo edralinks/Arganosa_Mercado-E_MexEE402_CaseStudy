@@ -65,9 +65,6 @@ We learned that preprocessing works best as one reusable pipeline: impute missin
 
 ## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
-
 In Chapter 3, Filling Year with the mean produced decimals like 2006.4, so the median should be used instead. The deletion step removed nothing because Publisher was already filled, and the duplicate check always gave 0 because Rank is unique, so Rank should be dropped first. 
 
 In Chapter 4, the notebook says Little = 1, Medium = 2, Lots = 3, but the output is 0, 1, 2. The “very hot” label is empty because the highest temperature (95) falls under “hot”, and the one-hot encoding shows True/False instead of 1/0.
@@ -77,8 +74,6 @@ In Chapter 5, StandardScaler does not fix the range, it makes the mean 0 and the
 In Chapter 8, the notebook splits the data with `X = data.drop('Survived', axis=1)` and `y = data['Survived']`, but the next cell displays `x` (lowercase) instead of `X`. Python is case-sensitive, so `x` is a completely different variable and will either raise a NameError or show the wrong data. The correct version is to use `X` consistently.
 
 ## Note on Ai tools
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
 
 We used AI tools in this activity. We used Gemini inside Google Colab to fix the code whenever a run was not successful. We used Claude to help identify where the errors in the notebooks were. We also used Gemini to understand the meaning of technical functions and terms used in this activity.
 
