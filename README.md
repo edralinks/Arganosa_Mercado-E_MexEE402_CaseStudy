@@ -1,3 +1,5 @@
+<div align="justify" style="font-size:16px; line-height:1.6;">
+
 # Arganosa_Mercado-E_MexEE402_CaseStudy
 
 
