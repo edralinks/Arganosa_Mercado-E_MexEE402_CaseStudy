@@ -68,6 +68,8 @@ There are real ones in there. Finding them earns points.
 In Chapter 3, Filling Year with the mean produced decimals like 2006.4, so the median should be used instead. The deletion step removed nothing because Publisher was already filled, and the duplicate check always gave 0 because Rank is unique, so Rank should be dropped first. In Chapter 4, the notebook says Little = 1, Medium = 2, Lots = 3, but the output is 0, 1, 2. The “very hot” label is empty because the highest temperature (95) falls under “hot”, and the one-hot encoding shows True/False instead of 1/0.
 
 In Chapter 5, StandardScaler does not fix the range, it makes the mean 0 and the standard deviation 1, and MinMaxScaler is the one that fixes the range. The output is also only a NumPy array, not a “new dataset”, so the column names are lost. In Chapter 6, the Z-score output is outliers = [] even though the notebook calls 100 a “clear outlier”, because its z-score (2.615) is below the cutoff of 3. With only 8 data points it can never go above 3, so a cutoff of 2 or the IQR method should be used. The IQR steps (IQR = 9.5) also do not match the pandas output (IQR = 9.25).
+
+In Chapter 8, the notebook splits the data with X = data.drop('Survived', axis=1) and y = data['Survived'], but the next cell displays x (lowercase) instead of X. Python is case-sensitive, so x is a completely different variable and will either raise a NameError or show the wrong data. The correct version is to use X consistently.
 ## Note on AI tools
 
 Say whether you used an AI tool, and what for. This is not a penalty.
