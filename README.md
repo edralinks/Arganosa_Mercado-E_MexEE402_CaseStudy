@@ -71,6 +71,7 @@ In Chapter 5, StandardScaler does not fix the range, it makes the mean 0 and the
 
 In Chapter 8, the notebook splits the data with `X = data.drop('Survived', axis=1)` and `y = data['Survived']`, but the next cell displays `x` (lowercase) instead of `X`. Python is case-sensitive, so `x` is a completely different variable and will either raise a NameError or show the wrong data. The correct version is to use `X` consistently.
 
+## Note on Ai tools
 Say whether you used an AI tool, and what for. This is not a penalty.
 Hiding it is.
 
