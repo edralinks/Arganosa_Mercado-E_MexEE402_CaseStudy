@@ -69,7 +69,7 @@ In Chapter 3, Filling Year with the mean produced decimals like 2006.4, so the m
 
 In Chapter 5, StandardScaler does not fix the range, it makes the mean 0 and the standard deviation 1, and MinMaxScaler is the one that fixes the range. The output is also only a NumPy array, not a “new dataset”, so the column names are lost. In Chapter 6, the Z-score output is outliers = [] even though the notebook calls 100 a “clear outlier”, because its z-score (2.615) is below the cutoff of 3. With only 8 data points it can never go above 3, so a cutoff of 2 or the IQR method should be used. The IQR steps (IQR = 9.5) also do not match the pandas output (IQR = 9.25).
 
-In Chapter 8, the notebook splits the data with 'X = data.drop('Survived', axis=1)' and y = data['Survived'], but the next cell displays x (lowercase) instead of X. Python is case-sensitive, so x is a completely different variable and will either raise a NameError or show the wrong data. The correct version is to use X consistently.
+In Chapter 8, the notebook splits the data with <X = data.drop('Survived', axis=1)> and y = data['Survived'], but the next cell displays x (lowercase) instead of X. Python is case-sensitive, so x is a completely different variable and will either raise a NameError or show the wrong data. The correct version is to use X consistently.
 ## Note on AI tools
 
 Say whether you used an AI tool, and what for. This is not a penalty.
