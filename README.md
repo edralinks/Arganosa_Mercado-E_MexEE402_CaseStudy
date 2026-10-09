@@ -28,6 +28,7 @@ Batangas State University, Alangilan Campus
 | Ch8 | https://colab.research.google.com/drive/1hHxCZLLLNYx0Zr-r1AbAUmf_quT5NPLv?usp=sharing |
 | Ch9 | https://colab.research.google.com/drive/1B4gXcNGBGdP8rv9pkYZkZz4WoxnMVfuL?usp=sharing | 
 
+
 ## What we learned
 
 One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
